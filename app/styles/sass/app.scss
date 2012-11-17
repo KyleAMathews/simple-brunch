@@ -1,0 +1,14 @@
+@import "compass";
+
+@import "blueprint";
+@import "typography";
+@import "layout";
+
+h1 {
+  @include border-radius(5px);
+  @include replace-text('http://brunch.io/images/brunch.png');
+  @include trailer(0.5);
+
+  height: 92px;
+  background-color: #91a2c0;
+}

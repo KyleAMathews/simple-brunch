@@ -1,0 +1,27 @@
+{
+  "author": "Kyle Mathews",
+  "name": "simple-brunch",
+  "description": "My starter Brunch Skeleton. Include Coffeescript, Backbone.js, and Sass/Compass",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMathews/simple-brunch"
+  },
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "javascript-brunch": ">= 1.0 < 1.4",
+    "coffee-script-brunch": ">= 1.0 < 1.4",
+    "eco-brunch": ">= 1.0 < 1.4",
+    "uglify-js-brunch": ">= 1.0 < 1.4"
+  },
+  "devDependencies": {
+    "mocha": "0.14.0",
+    "expect.js": "0.1.2"
+  }
+}

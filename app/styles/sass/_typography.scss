@@ -1,0 +1,56 @@
+@import "normalize";
+@import "compass/typography";
+
+// Typography defaults
+$base-font-size: 14px;
+$base-line-height: $base-font-size * 1.5;
+@include establish-baseline();
+
+a {
+  @include hover-link();
+  font-weight: bold;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  color: grey(30);
+  text-rendering: optimizeLegibility;
+}
+
+// For reference, the following is the traditional typographic hierarchy.
+// 6, 7, 8, 9, 10, 11, 12, 14, 16, 18, 21, 24, 36, 48, 60, 72
+// Ref. http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography-part-4
+
+// If you'd like to change the size of headers, move all of the following either definitions
+// up or down the hierarchy.
+h1 {
+  @include adjust-font-size-to(36px);
+}
+h2 {
+  @include adjust-font-size-to(24px);
+  @include leader(0);
+}
+h3 {
+  @include adjust-font-size-to(21px);
+}
+h4 {
+  @include adjust-font-size-to(18px);
+  @include trailer(.5);
+  @include leader(0);
+}
+h5 {
+  @include adjust-font-size-to(16px, 1);
+}
+h6 {
+  @include adjust-font-size-to(14px);
+}
+.grey-text {
+  color: grey(60);
+}
+@mixin monospace() {
+  font-family: Inconsolata, Consolas, 'Liberation Mono', Courier, monospace;
+  font-size: 1em;
+}
+code, pre, kbd, samp, .code {
+  @include monospace();
+}

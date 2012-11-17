@@ -5,8 +5,7 @@ My simple brunch skeleton for Coffeescript, Backbone.js, Sass/Compass projects.
 
 I use Eco for templating - https://github.com/sstephenson/eco
 
-Includes some nice typography defaults and Susy, a responsive grid system
-for Compass - http://susy.oddbird.net/
+Includes some nice typography defaults and Susy, a responsive grid system - http://susy.oddbird.net/
 
 ## Getting Started
 Make sure you have [Brunch.io](http://brunch.io) installed.

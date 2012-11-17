@@ -1,7 +1,7 @@
 simple-brunch
 =============
 
-My simple brunch skeleton for [Coffeescript](http://coffeescript.org/), [Backbone.js](http://documentcloud.github.com/backbone/), [Sass](http://sass-lang.com/)/[Compass](http://compass-style.org/reference/compass/) projects.
+My simple Brunch skeleton for creating single page apps using [Coffeescript](http://coffeescript.org/), [Backbone.js](http://documentcloud.github.com/backbone/), [Sass](http://sass-lang.com/)/[Compass](http://compass-style.org/reference/compass/) projects.
 
 I use [Eco](https://github.com/sstephenson/eco) for templating.
 

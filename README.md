@@ -16,4 +16,5 @@ Create a new project by running:
 Or simply checkout the repository to your computer and rename to your
 desired project name.
 
+### How to compile CSS
 Please note that I'm not using Brunch to compile the .scss files but instead using the Compass Ruby Gem. To compile the css files, enter the app/styles directory and run ````compass compile````

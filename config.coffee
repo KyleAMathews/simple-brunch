@@ -1,11 +1,6 @@
 exports.config =
-  paths:
-    public: 'public'
-
   files:
     javascripts:
-      # Defines what file will be generated with `brunch generate`.
-      defaultExtension: 'coffee'
       # Describes how files will be compiled & joined together.
       # Available formats:
       # * 'outputFilePath'
@@ -26,5 +21,4 @@ exports.config =
         ]
 
     templates:
-      defaultExtension: 'eco'
       joinTo: 'javascripts/app.js'

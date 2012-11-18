@@ -1,12 +1,11 @@
 simple-brunch
 =============
 
-My simple brunch skeleton for Coffeescript, Backbone.js, Sass/Compass projects.
+My simple Brunch skeleton for creating single page apps using [Coffeescript](http://coffeescript.org/), [Backbone.js](http://documentcloud.github.com/backbone/), [Sass](http://sass-lang.com/)/[Compass](http://compass-style.org/reference/compass/).
 
-I use Eco for templating - https://github.com/sstephenson/eco
+I use [Eco](https://github.com/sstephenson/eco) for templating.
 
-Includes some nice typography presets and Susy, a responsive grid system
-for Compass - http://susy.oddbird.net/
+Includes some nice typography defaults and [Susy](http://susy.oddbird.net/), a responsive grid system.
 
 ## Getting Started
 Make sure you have [Brunch.io](http://brunch.io) installed.

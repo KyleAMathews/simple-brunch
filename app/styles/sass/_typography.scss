@@ -8,6 +8,7 @@ $base-line-height: $base-font-size * 1.5;
 
 a {
   @include hover-link();
+
   font-weight: bold;
 }
 
@@ -35,7 +36,7 @@ h3 {
 }
 h4 {
   @include adjust-font-size-to(18px);
-  @include trailer(.5);
+  @include trailer(.5, 18px);
   @include leader(0);
 }
 h5 {
@@ -48,9 +49,17 @@ h6 {
   color: grey(60);
 }
 @mixin monospace() {
+  @include adjust-font-size-to(12px, 1);
+
   font-family: Inconsolata, Consolas, 'Liberation Mono', Courier, monospace;
-  font-size: 1em;
 }
 code, pre, kbd, samp, .code {
   @include monospace();
+}
+
+ul {
+  @include leader(1);
+  @include trailer(1);
+
+  padding: 0 0 0 rhythm(1.5);
 }

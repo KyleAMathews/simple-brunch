@@ -15,7 +15,7 @@ exports.config =
       order:
         before: [
           'vendor/scripts/console-helper.js',
-          'vendor/scripts/jquery-1.8.3.min.js',
+          'vendor/scripts/jquery-1.9.1.js',
           'vendor/scripts/underscore.js',
           'vendor/scripts/backbone.js',
         ]
